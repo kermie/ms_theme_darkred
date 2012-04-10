@@ -1,4 +1,3 @@
-<?php
 /**
  *    This file is part of OXID eShop Community Edition.
  *
@@ -16,22 +15,29 @@
  *    along with OXID eShop Community Edition.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @link      http://www.oxid-esales.com
- * @package   main
+ * @package   out
  * @copyright (C) OXID eSales AG 2003-2011
  * @version OXID eShop CE
- * @version   SVN: $Id: theme.php 25466 2010-02-01 14:12:07Z alfonsas $
+ * @version   SVN: $Id: oxlistremovebutton.js 35529 2011-05-23 07:31:20Z vilma $
  */
+( function( $ ) {
 
-/**
- * Theme Information
- */
-$aTheme = array(
-    'id'           => 'ms_theme_darkred',
-    'title'        => 'DarkRed',
-    'description'  => 'DarkRed theme, derived from Azure, just CSS changes',
-    'thumbnail'    => 'theme.jpg',
-    'version'      => '0.1',
-    'author'       => 'Marco Steinhaeuser',
-    'parentTheme'  => 'azure',
-    'parentVersions' => array('1.2'),
-);
+    oxListRemoveButton = {
+
+        _create: function(){
+
+            var self = this;
+            var el   = self.element;
+
+            el.click(function(){
+                var targetForm = $(this).attr("triggerForm");
+                $("#"+targetForm).submit();
+                return false;
+            });
+
+        }
+    }
+
+    $.widget( "ui.oxListRemoveButton", oxListRemoveButton );
+
+} )( jQuery );

@@ -1,4 +1,3 @@
-<?php
 /**
  *    This file is part of OXID eShop Community Edition.
  *
@@ -16,22 +15,42 @@
  *    along with OXID eShop Community Edition.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @link      http://www.oxid-esales.com
- * @package   main
+ * @package   out
  * @copyright (C) OXID eSales AG 2003-2011
  * @version OXID eShop CE
- * @version   SVN: $Id: theme.php 25466 2010-02-01 14:12:07Z alfonsas $
+ * @version   SVN: $Id: $
  */
+( function ( $ ) {
 
-/**
- * Theme Information
- */
-$aTheme = array(
-    'id'           => 'ms_theme_darkred',
-    'title'        => 'DarkRed',
-    'description'  => 'DarkRed theme, derived from Azure, just CSS changes',
-    'thumbnail'    => 'theme.jpg',
-    'version'      => '0.1',
-    'author'       => 'Marco Steinhaeuser',
-    'parentTheme'  => 'azure',
-    'parentVersions' => array('1.2'),
-);
+    /**
+     * Beta note handler
+     */
+    oxBetaNote = {
+        options: {
+            cookieName  : "hideBetaNote",
+            closeButton : ".dismiss",
+        },
+
+        /**
+         * Enable beta note dismiss and set cookie to keep it hidden on next pages
+         *
+         * @return integer
+         */
+        _create: function() {
+            var self = this;
+            $(self.options.closeButton, self.element).click(
+                function(){
+                    self.element.fadeOut('slow').remove();
+                    $.cookie(self.options.cookieName,1,{path: '/'});
+                    return false;
+                }
+            );
+        },
+    };
+
+    /**
+     * BetaNote widget
+     */
+    $.widget("ui.oxBetaNote", oxBetaNote );
+
+})( jQuery );
