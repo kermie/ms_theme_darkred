@@ -1,1 +1,14 @@
-Hello World
+This is an adaption of the color scheme of OXID eShop based on Azure theme.
+Just /src/oxid.css and maybe some image files in /src/bg/ will be touched.
+
+Installation:
+1) Download, unzip and copy these files to /out/ms_theme_darkred/ of your OXID eShop installation.
+2) clear the /tmp/ folder of your OXID eShop installation
+3) fire up your browser with your OXID eShop installation, run the admin panel on Extensions --> Themes, mark the DarkRed theme and activate it.
+4) If it is not working or brings up error messages, please flush your browser cache (had this issue with Firefox under Ubuntu and spent hours to fix it)
+
+Please note: This theme is still under development, help is welcome.
+
+License:
+This theme is published under GPLv3, according to http://www.oxid-esales.com/en/products/community-edition/gpl-v3-faq. Please feel free to use it as a basis for your OXID eShop development with all editions.
+

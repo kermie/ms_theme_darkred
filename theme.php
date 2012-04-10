@@ -26,7 +26,7 @@
  * Theme Information
  */
 $aTheme = array(
-    'id'           => 'darkred',
+    'id'           => 'ms_theme_darkred',
     'title'        => 'DarkRed',
     'description'  => 'DarkRed theme, derived from Azure, just CSS changes',
     'thumbnail'    => 'theme.jpg',
