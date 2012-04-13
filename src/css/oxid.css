@@ -415,13 +415,13 @@ a.viewAllHover,
 .itemSlider li a.viewAllHover,
 .specBoxTitles a.title:hover,
 .actionLinks li:hover {
-    background: #ec6105 url("../bg/svg/grad_orange.svg");
-    background: -moz-linear-gradient(#ff8604, #ec6105);
-    background: -ms-linear-gradient(#ff8604, #ec6105);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff8604), to(#ec6105));
-    background: -webkit-linear-gradient(#ff8604, #ec6105);
-    background: -o-linear-gradient(#ff8604, #ec6105);
-    background: linear-gradient(#ff8604, #ec6105);
+    background: #D98719 url("../bg/svg/grad_orange.svg");
+    background: -moz-linear-gradient(#FFFF00, #D98719);
+    background: -ms-linear-gradient(#FFFF00, #D98719);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#D98719));
+    background: -webkit-linear-gradient(#FFFF00, #D98719);
+    background: -o-linear-gradient(#FFFF00, #D98719);
+    background: linear-gradient(#FFFF00, #D98719);
 }
 
 /* Light blue */
@@ -1001,7 +1001,7 @@ a.viewAllHover,
 }
 
 .specBoxInfo .price:hover .button{
-    background:#ec6105;
+    background:#D98719;
 }
 
 .specCatBox .viewAllHover {
@@ -2083,7 +2083,7 @@ a.tagText img{
 }
 
 .gridView li:hover .priceBlock:hover .button{
-    background:#ec6105;
+    background:#D98719;
 }
 
 .titleBox{
@@ -2581,13 +2581,13 @@ a.tagText img{
 }
 
 #sidebar .tree a:hover {
-    background: #ec6105 url("../bg/svg/grad_orange.svg");
-    background: -moz-linear-gradient(#ff8604, #ec6105);
-    background: -ms-linear-gradient(#ff8604, #ec6105);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff8604), to(#ec6105));
-    background: -webkit-linear-gradient(#ff8604, #ec6105);
-    background: -o-linear-gradient(#ff8604, #ec6105);
-    background: linear-gradient(#ff8604, #ec6105);
+    background: #D98719 url("../bg/svg/grad_orange.svg");
+    background: -moz-linear-gradient(#FFFF00, #D98719);
+    background: -ms-linear-gradient(#FFFF00, #D98719);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#D98719));
+    background: -webkit-linear-gradient(#FFFF00, #D98719);
+    background: -o-linear-gradient(#FFFF00, #D98719);
+    background: linear-gradient(#FFFF00, #D98719);
     color:#fff;
 }
 
@@ -2596,13 +2596,13 @@ a.tagText img{
 }
 
 #sidebar .tree li.active>a {
-    background: #ec6105 url("../bg/svg/grad_orange.svg");
-    background: -moz-linear-gradient(#ff8604, #ec6105);
-    background: -ms-linear-gradient(#ff8604, #ec6105);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff8604), to(#ec6105));
-    background: -webkit-linear-gradient(#ff8604, #ec6105);
-    background: -o-linear-gradient(#ff8604, #ec6105);
-    background: linear-gradient(#ff8604, #ec6105);
+    background: #D98719 url("../bg/svg/grad_orange.svg");
+    background: -moz-linear-gradient(#FFFF00, #D98719);
+    background: -ms-linear-gradient(#FFFF00, #D98719);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#D98719));
+    background: -webkit-linear-gradient(#FFFF00, #D98719);
+    background: -o-linear-gradient(#FFFF00, #D98719);
+    background: linear-gradient(#FFFF00, #D98719);
     color:#fff;
 }
 
@@ -2683,7 +2683,7 @@ a.tagText img{
 
 /* --- Checkout - thankyou page --------------------- */
 #thankyouPage h3.blockHead:first-child {
-   color: #ec6105;
+   color: #D98719;
 }
 
 #thankyouPage .lightHead {
@@ -5014,7 +5014,7 @@ div.agbButton  {
 }
 
 .agb a:hover {
-    color: #ec6105;
+    color: #D98719;
     text-decoration:none;
 }
 
@@ -5105,7 +5105,7 @@ a.downloadableFile {
 }
 
 a.downloadableFile:hover {
-    color: #ec6105;
+    color: #D98719;
     text-decoration: none;
 }
 
